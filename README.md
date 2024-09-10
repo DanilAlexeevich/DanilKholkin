@@ -30,7 +30,7 @@
 ### 2.1. Установка
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich1/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/git1.png)
 
 ## Выводы
 
