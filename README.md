@@ -27,7 +27,150 @@
 - к.э.н., доцент Панов М.А.
 
 ## Задание №1
-### 2.1. Установка
+### Установка
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №2
+### Настройка
+$ git config --global user.name "Danil"
+$ git config --global user.email "mr.danil.kholkin@mail.ru"
+
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git2.png)
+
+## Выводы
+
+Установлено имя пользователя и почта
+
+## Задание №3
+### Создание нового репозитория
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №4
+### Подготовка файлов
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №5
+### Фиксация изменений
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №6
+### Подключение к удаленному репозиторию
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №7
+### Ветвление
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №8
+### Особенности применения «Фетч»
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №9
+### Удаление файлов, веток, локальных и удалённых репозиториев
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №10
+### Отслеживание изменений в коммитах
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №11
+### Возвращение файла к предыдущему (определенному) состоянию
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №12
+### Возвращение к предыдущему коммиту
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №13
+### Исправление коммита
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №14
+### Разрешение конфликтов при слиянии
+
+### Результат.
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+
+## Выводы
+
+Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+
+## Задание №15
+### Настройка .gitignore
 
 ### Результат.
 ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
