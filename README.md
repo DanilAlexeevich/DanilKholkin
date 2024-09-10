@@ -57,7 +57,7 @@ cd /c/Users/user/Software
 git init
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git3.png)
 
 ## Выводы
 
@@ -65,29 +65,38 @@ git init
 
 ## Задание №4
 ### Подготовка файлов
+git add proba.txt
 
+git status
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git4.png)
 
 ## Выводы
 
-Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+Файл proba.txt подготовлен к коммиту
 
 ## Задание №5
 ### Фиксация изменений
+git commit -m "Первый коммит: начальная версия проекта" - создание коммита с описанием
+
+git log - просмотр списка коммитов
+
+git log --oneline - просмотр коммитов в компактном виде
+
+git log --graph - графическое древо коммитов
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git5.png)
 
 ## Выводы
 
-Git был успешно установлен, также был создан этот репозиторий и ветка Tema_1
+Был создан коммит, просмотрена история добавления коммитов
 
 ## Задание №6
 ### Подключение к удаленному репозиторию
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git6.png)
 
 ## Выводы
 
@@ -97,7 +106,7 @@ Git был успешно установлен, также был создан �
 ### Ветвление
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git7.png)
 
 ## Выводы
 
@@ -107,7 +116,7 @@ Git был успешно установлен, также был создан �
 ### Особенности применения «Фетч»
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git8.png)
 
 ## Выводы
 
@@ -117,7 +126,7 @@ Git был успешно установлен, также был создан �
 ### Удаление файлов, веток, локальных и удалённых репозиториев
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git9.png)
 
 ## Выводы
 
@@ -127,7 +136,7 @@ Git был успешно установлен, также был создан �
 ### Отслеживание изменений в коммитах
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git10.png)
 
 ## Выводы
 
@@ -137,7 +146,7 @@ Git был успешно установлен, также был создан �
 ### Возвращение файла к предыдущему (определенному) состоянию
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git11.png)
 
 ## Выводы
 
@@ -147,7 +156,7 @@ Git был успешно установлен, также был создан �
 ### Возвращение к предыдущему коммиту
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git12.png)
 
 ## Выводы
 
@@ -157,7 +166,7 @@ Git был успешно установлен, также был создан �
 ### Исправление коммита
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git13.png)
 
 ## Выводы
 
@@ -167,7 +176,7 @@ Git был успешно установлен, также был создан �
 ### Разрешение конфликтов при слиянии
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git14.png)
 
 ## Выводы
 
@@ -177,7 +186,7 @@ Git был успешно установлен, также был создан �
 ### Настройка .gitignore
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git15.png)
 
 ## Выводы
 
