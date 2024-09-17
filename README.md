@@ -177,136 +177,121 @@ Sentence
 ### Выведите в консоль булевую переменную False, не используя слово False в строке или изначально присвоенную булевую переменную. Программа должна занимать не более двух строк редактора кода.
 print(bool(0))
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.11.png)
 
 ## Выводы
 
-Sentence 
+Используем bool(0) для получения булевое значение False, так как bool(0) эквивалентен False.
   
 ## Самостоятельная работа №2
 ### Присвоить значения трем переменным и вывести их в консоль, используя только две строки редактора кода
-sentence = "Hello World"
+a, b, c = 1, 2, 3
 
-print(sentence[1])
-
-print(sentence[:5])
+print(a, b, c)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.12.png)
 
 ## Выводы
 
-Sentence 
+Присваиваем значения переменным и используем print() для их вывода.
   
 ## Самостоятельная работа №3
 ### Реализуйте ввод данных в программу, через консоль, в виде только целых чисел (тип данных int). То есть при вводе буквенных символов в консоль, программа не должна работать. Программа должна занимать не более двух строк редактора кода.
-sentence = "Hello World"
+x = input()
 
-print(sentence[1])
-
-print(sentence[:5])
+print(int(x) if x.isdigit() else "Ошибка ввода")
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.13.png)
 
 ## Выводы
 
-Sentence 
+Считываем ввод и проверяем, является ли он целым числом. Если нет, выводим сообщение об ошибке. 
   
 ## Самостоятельная работа №4
 ### Создайте только одну строковую переменную. Длина строки должна не превышать 5 символов. На выходе мы должны получить строку длиной не менее 16 символов. Программа должна занимать не более двух строк редактора кода.
-sentence = "Hello World"
+line = "Hello"
 
-print(sentence[1])
-
-print(sentence[:5])
+print(line * 4)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.14.png)
 
 ## Выводы
 
-Sentence 
+Создаём короткую строку и добавляем к ней дополнительные символы до достижения нужной длины.
   
 ## Самостоятельная работа №5
 ### Создайте три переменные: день (тип данных - числовой), месяц (тип данных - строка), год (тип данных - числовой) и выведите в консоль текущую дату в формате: “Сегодня день месяц год. Всего хорошего!” используя F строку и оператор end внутри print(), в котором вы должны написать фразу “Всего хорошего!”. Программа должна занимать не более двух строк редактора кода.
-sentence = "Hello World"
+day, month, year = 18, "сентябрь", 2024
 
-print(sentence[1])
-
-print(sentence[:5])
+print(f"Сегодня день {day} месяц {month} год {year}.\nВсего хорошего!")
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.15.png)
 
 ## Выводы
 
-Sentence 
+Присваиваем значения переменным и используем форматирование строк для вывода даты.
   
 ## Самостоятельная работа №6
 ### В предложении ‘Hello World’ вставьте ‘my’ между двумя словами. Выведите полученное предложение в консоль в одну строку. Программа должна занимать не более двух строк редактора кода.
-sentence = "Hello World"
+s = "Hello World"
 
-print(sentence[1])
-
-print(sentence[:5])
+print(s[:6] + "my " + s[6:])
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.16.png)
 
 ## Выводы
 
-Sentence 
+Вставляем слово "my " в нужное место строки и выводим результат.
+
 ## Самостоятельная работа №7
 ### Узнайте длину предложения ‘Hello World’, результат выведите в консоль. Программа должна занимать не более двух строк редактора кода.
-sentence = "Hello World"
+s = "Hello World"
 
-print(sentence[1])
-
-print(sentence[:5])
+print(len(s))
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.17.png)
 
 ## Выводы
 
-Sentence 
+Используем len() для определения длины строки.
   
 ## Самостоятельная работа №8
 ### Переведите предложение ‘HELLO WORLD’ в нижний регистр. Программа должна занимать не более двух строк редактора кода.
-sentence = "Hello World"
-
-print(sentence[1])
-
-print(sentence[:5])
+print("HELLO WORLD".lower())
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.18.png)
 
 ## Выводы
 
-Sentence 
+Используем метод .lower() для преобразования строки в нижний регистр.
   
 ## Самостоятельная работа №9
 ### Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связанна со взаимодействием с числовыми значениями.
-sentence = "Hello World"
+x = int(input("Введите первое число: "))
 
-print(sentence[1])
+y = int(input("Введите второе число: "))
 
-print(sentence[:5])
+print(f"Сумма: {x + y}, Произведение: {x * y}")
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.19.png)
 
 ## Выводы
 
-Sentence 
+Задача рассчитать сумму и произведение двух чисел. Программа запрашивает ввод сначала первого, а затем второго числа. Умножает их и складывает.
   
 ## Самостоятельная работа №10
 ### Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связанна со взаимодействием со строковыми значениями.
-sentence = "Hello World"
+s = input("Введите строку: ")
 
-print(sentence[1])
+letter = input("Введите букву: ")
 
-print(sentence[:5])
+print(f"Буква '{letter}' встречается {s.count(letter)} раз(а)")
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.20.png)
 
 ## Выводы
 
-Sentence 
+Задача посчитать количество вхождений буквы в строку. Программа запрашивает у пользователя строку, а затем букву, выводит количество этой буквы в строке.
 
 ## Общие выводы по теме
 - Развернутый вывод
