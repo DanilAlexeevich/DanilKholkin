@@ -44,7 +44,7 @@ $ git config --global user.email "mr.danil.kholkin@mail.ru"
 
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git2.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git2.png)
 
 ## Выводы
 
@@ -57,7 +57,7 @@ cd /c/Users/user/Software
 git init
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git3.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git3.png)
 
 ## Выводы
 
@@ -69,7 +69,7 @@ git add proba.txt
 
 git status
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git4.png)
 
 ## Выводы
 
@@ -86,7 +86,7 @@ git log --oneline - просмотр коммитов в компактном в
 git log --graph - графическое древо коммитов
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git5.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git5.png)
 
 ## Выводы
 
@@ -110,7 +110,7 @@ git stash apply - возврат к сохраненным изменениям
 
 git stash pop - применение стеш и удаление его из стеша
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git6.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git6.png)
 
 ## Выводы
 
@@ -125,7 +125,7 @@ git checkout/switch wetka - переключение на ветку
 git merge/feature - слияние веток
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git7.png)
 
 ## Выводы
 
@@ -136,7 +136,7 @@ git merge/feature - слияние веток
 git fetch [удаленный_репозиторий] - команда для выполнения фетча
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git8.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git8.png)
 
 ## Выводы
 
@@ -152,7 +152,7 @@ git branch -d [имя ветки] - удаление ветки
 
 git push -delete [имя ветки] - удаление удаленной ветки
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git9.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git9.png)
 
 ## Выводы
 
@@ -166,7 +166,7 @@ git diff - посмотреть изменения между последним
 
 git diff [коммит1][коммит2] - изменения между двумя коммитами
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git10.png)
 
 ## Выводы
 
@@ -179,7 +179,7 @@ git checkout 9019ef71aad7cca1103df075c5bd979ac0b85c2a -- /c/Users/user/Software/
 git commit -m "Восстановление файла к предыдущему состоянию"
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git11.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git11.png)
 
 ## Выводы
 
@@ -192,7 +192,7 @@ git reset --hard HEAD^
 git reset --hard 9019ef71aad7cca1103df075c5bd979ac0b85c2a
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git12.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git12.png)
 
 ## Выводы
 
@@ -207,7 +207,7 @@ git rebase -i HEAD~3
 git rebase --continue
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git13.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git13.png)
 
 ## Выводы
 
@@ -217,8 +217,8 @@ git rebase --continue
 ### Разрешение конфликтов при слиянии
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git14.1.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git14.2.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git14.1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git14.2.png)
 
 ## Выводы
 
@@ -228,7 +228,7 @@ git rebase --continue
 ### Настройка .gitignore
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/git15.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git15.png)
 
 ## Выводы
 
