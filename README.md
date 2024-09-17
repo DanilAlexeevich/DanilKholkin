@@ -27,7 +27,7 @@ print(123)
 print('123')
 print(1.23)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.1.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.1.png)
 
 ## Выводы
 
@@ -39,7 +39,7 @@ print(123 + 321)
 print(12.3 - 32.1)
 print(1 + 2.3 + 3 + 2.1)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.2.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.2.png)
 
 ## Выводы
 
