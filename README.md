@@ -56,7 +56,7 @@ one = "Hello,"
 two = " World!"
 print(one + two)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.3.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.3.png)
 
 ## Выводы
 
@@ -73,7 +73,7 @@ print(float(b))
 c = False
 print(str(c))
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.4.png)
 
 ## Выводы
 
@@ -85,7 +85,7 @@ b = input('two:')
 c = input('three:')
 print(a, b, c)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.5.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.5.png)
 
 ## Выводы
 
@@ -100,7 +100,7 @@ print("Обычное деление:", a / b)
 print("Целочисленное деление:", a // b)
 print("Нахождение остатка от деления:", a % b)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.6.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.6.png)
 
 ## Выводы
 
@@ -110,7 +110,7 @@ Git был успешно установлен, также был создан �
 line = "Hello"
 print(line * 5)
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.7.png)
 
 ## Выводы
 
@@ -121,7 +121,7 @@ Git был успешно установлен, также был создан �
 sentence = "Hello World"
 print(sentence.count('o'))
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.8.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.8.png)
 
 ## Выводы
 
@@ -131,7 +131,7 @@ Git был успешно установлен, также был создан �
 ### Напишите предложение ‘Hello World’ в две строки. Написанная программа должна занимать одну строку в редакторе кода.
 print("Hello\nWorld")
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.9.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.9.png)
 
 ## Выводы
 
@@ -142,7 +142,7 @@ sentence = "Hello World"
 print(sentence[1])
 print(sentence[:5])
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/gitTema_2.10.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/gitTema_2.10.png)
 
 ## Выводы
 
