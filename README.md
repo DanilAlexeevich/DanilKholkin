@@ -403,7 +403,17 @@ print(f"Заканчивается на 'end': {ends_with_end}")
 Проверка начала и конца строки с использованием методов startswith() и endswith() — простой способ узнать, соответствует ли строка определённому шаблону.
 
 ## Самостоятельная работа №5
-### Настройка .gitignore
+### Составьте программу, результатом которой будет данный вывод в консоль: hello world
+### hello
+hello world
+hello
+hello world
+hello
+hello world
+hello
+hello world
+hello
+hello world
 
 ### Результат.
 ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_15.png)
