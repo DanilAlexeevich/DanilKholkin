@@ -31,11 +31,11 @@ two = int(input("Введите значение второй переменно
 
 if one >= two:
 
-    print("Выполняется")
+print("Выполняется")
     
 else:
 
-    print("Не выполняется")
+print("Не выполняется")
     
 ### Результат.
 ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_1.png)
