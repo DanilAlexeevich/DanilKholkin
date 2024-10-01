@@ -33,7 +33,7 @@ if __name__ == '__main__':
 main()
 
 ### Результат
- ![Меню](https://github.com/huddy20/moshi/raw/main/image/1t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/1t4.png)
 
 ## Выводы
 Код определяет функцию main, которая выполняет простое действие (сложение чисел). Затем, в блоке проверки if __name__ == 'main', происходит вызов этой функции, если скрипт запускается напрямую.
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 print (main())
 
 ### Результат
- !![Меню](https://github.com/huddy20/moshi/raw/main/image/2t4.png)
+ ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/2t4.png)
 
 ## Выводы
 Код определяет функцию main, которая возвращает результат сложения чисел. Вызов print(main()) выводит результат функции в консоль.
@@ -73,7 +73,7 @@ answer = main(x,y)
 print(answer)
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/3t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/3t4.png)
 
 ## Выводы
 Создается функция main с двумя параметрами, которая складывает их и возвращает результат. Внутри цикла for с диапазоном 5 итераций, функция вызывается с фиксированными значениями параметров, и результат выводится на экран.
@@ -100,7 +100,7 @@ print(f"\nresult={result}")
 
 ### Результа
 
-![Меню](https://github.com/huddy20/moshi/raw/main/image/4t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/4t4.png)
 ## Выводы
 Код демонстрирует использование *args для передачи произвольного количества аргументов в функцию. Внутри функции происходит их суммирование и вычисление среднего значения. Также выводятся отдельные переменные.
 
@@ -125,7 +125,7 @@ result = main(10, 0, 1, 2, -1, 1, 2)
 print(f"\nresult = {result}")
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/5t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/5t4.png)
 
 ## Выводы
 Используется **kwargs для передачи неограниченного количества именованных аргументов в функцию. Внутри функции идет вывод всех переданных пар ключ-значение, с возможностью повторного вызова с передачей готового словаря.
@@ -147,7 +147,7 @@ if __name__ == '__main__':
 main(x=[1, 2, 3], y=[3, 3, 0])
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/6t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/6t4.png)
 
 ## Выводы
 Определена функция main, которая работает с именованными аргументами и выводит их среднее значение с помощью вспомогательной функции mean.
@@ -168,7 +168,7 @@ def say_hello():
 print('Hello students!')
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/7t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7t4.png)
 
 ## Выводы
 Файл main.py импортирует и использует функцию say_hello из другого файла (for_important.py). Эта функция выводит приветственное сообщение при запуске скрипта.
@@ -192,7 +192,7 @@ if __name__ == '__main__':
 main()
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/8t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/8t4.png)
 
 ## Выводы 
 В этом коде происходит импорт модуля math и создание функции, которая запрашивает у пользователя ввод числа, затем выводит его квадратный корень, синус и косинус с использованием функций из библиотеки math.
@@ -220,7 +220,7 @@ if __name__ == '__main__':
 main()
     
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/9t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/9t4.png)
 
 ## Выводы
 Код использует библиотеку datetime для получения текущей даты и прибавления к ней заданного числа дней. Функция выводит текущую дату, день недели, а также дату и день недели после прибавления введенного количества дней.
@@ -261,7 +261,7 @@ triangle()
 print(f"Площадь: {result}")
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/10t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/10t4.png)
 
 ## Выводы
 Код предлагает пользователю выбрать между прямоугольником и треугольником, после чего запрашивает соответствующие параметры (ширина, высота или основание) и вычисляет площадь выбранной фигуры.
@@ -303,7 +303,7 @@ time_costs = datetime.now() - start_time  # Вычисляем разницу м
 print(f"Время выполнения программы - {time_costs}")  # Выводим время выполнения программы
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/11t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/11t4.png)
 
 ## Выводы 
 Программа вычисляет и выводит длины векторов, представленных в виде списков, на основе переданных аргументов. Также она измеряет и выводит время выполнения функции.
@@ -336,7 +336,7 @@ if __name__ == "__main__":
 roll_dice()
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/12t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/12t4.png)
 
 ## Вывод
 Программа моделирует бросок игральной кости с шестью гранями. В зависимости от результата броска выводится сообщение о выигрыше, проигрыше или повторном броске. 
@@ -362,7 +362,7 @@ if __name__ == '__main__':
 display_current_time()
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/13t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/13t4.png)
 
 ## Вывод
 В этой программе создается функция display_current_time(), которая в цикле выводит текущее время с точностью до секунд на протяжении 5 секунд. Используется time.sleep(1), чтобы сделать паузу на 1 секунду между выводами времени.
@@ -380,7 +380,7 @@ average = calculate_average(10, 20, 30, 40, 50)
 print(f"Среднее арифметическое: {average}")
 
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/14t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/14t4.png)
 
 ## Вывод
 Реализована функция, которая принимает произвольное количество аргументов и вычисляет их среднее арифметическое. Основная точка входа вызывает эту функцию и выводит результат. 
@@ -413,7 +413,7 @@ s = (a + b + c) / 2
 return math.sqrt(s * (s - a) * (s - b) * (s - c))
     
 ### Результат
-![Меню](https://github.com/huddy20/moshi/raw/main/image/15t4.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/15t4.png)
 
 ## Вывод
 Реализованы два файла: первый вычисляет площадь треугольника по формуле Герона, а второй отвечает за взаимодействие с пользователем, запрашивая у него необходимые данные и выводя результат.
