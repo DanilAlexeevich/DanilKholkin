@@ -290,7 +290,7 @@ def triangle_area(a, b, c):
     
 s = (a + b + c) / 2
     
-'#' Area calculation
+# Area calculation
     
 return math.sqrt(s * (s - a) * (s - b) * (s - c))
 
@@ -341,7 +341,7 @@ print(updated_grades_3)
 
 from collections import Counter
 
-'#' Function to transform the list into a set with the described rule
+# Function to transform the list into a set with the described rule
 
 def list_to_set(lst):
 
@@ -359,7 +359,7 @@ result_set.add(str(num) * i)  # Add the repeated number as strings
 
 return result_set
 
-'#' Provided lists
+# Provided lists
 
 list_1 = [1, 1, 3, 3, 1]
 
@@ -367,7 +367,7 @@ list_2 = [5, 5, 5, 5, 5, 5, 5]
 
 list_3 = [2, 2, 1, 2, 2, 5, 6, 7, 1, 3, 2, 2]
 
-'#' Convert lists to sets
+# Convert lists to sets
 
 set_1 = list_to_set(list_1)
 
@@ -375,7 +375,7 @@ set_2 = list_to_set(list_2)
 
 set_3 = list_to_set(list_3)
 
-'#' Output the results
+# Output the results
 
 print(set_1)
 
