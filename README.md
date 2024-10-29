@@ -28,7 +28,7 @@ class Car:
 
 # Создаем объект my_car класса Car с маркой "Toyota" и моделью "Corolla"
 my_car = Car("Toyota", "Corolla")
-'''
+```
 
 ### Результат
 ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/1t8.png)
