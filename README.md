@@ -195,172 +195,128 @@ for shape in shapes:
 Ищем площади фигур
 
 ## Самостоятельная работа №1
-### Найдите в интернете любую статью (объем статьи не менее 200 слов), скопируйте ее содержимое в файл и напишите программу, которая считает количество слов в текстовом файле и определит самое часто встречающееся слово. Результатом выполнения задачи будет: скриншот файла со статьей, листинг кода, и вывод в консоль, в котором будет указана вся необходимая информация.
-from collections import Counter
-
-with open('input.txt', 'r', encoding='utf-8') as file:
-    text = file.read()
-
-words = text.split()
-
-word_count = len(words)
-
-word_frequency = Counter(words)
-
-most_common_word = word_frequency.most_common(1)[0]
-
-print(f"Общее количество слов: {word_count}")
-print(f"Самое часто встречающееся слово: {most_common_word[0]} ({most_common_word[1]} раз)")
-
+### Самостоятельно создайте класс и его объект. Они должны отличаться от тех, что указаны в методичке и лабораторных заданиях.
+```python
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.age = age
+  
+  dog = Animal("Dog", 5)
+  print(f"Species: {dog.species}, Age: {dog.age}")
+```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/6t7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/6t8.png)
 ## Выводы
-
-Данная задача продемонстрировала базовые операции с вводом данных в Python, а также показала, как преобразовать строку чисел в другие структуры данных, такие как список и кортеж. Это полезно для получения и дальнейшей обработки данных от пользователя в различных форматах.
+В данной задаче был создан класс Animal с двумя атрибутами: species (вид) и age (возраст). Объект dog был создан на основе этого класса, и его атрибуты были успешно выведены в консоль. Это задание помогает понять основы создания классов и объектов в Python.
 
 ## Самостоятельная работа №2
-### У вас появилась потребность в ведении книги расходов, посмотрев все существующие варианты вы пришли к выводу что вас ничего не устраивает и нужно все делать самому. Напишите программу для учета расходов. Программа должна позволять вводить информацию о расходах, сохранять ее в файл и выводить существующие данные в консоль. Ввод информации происходит через консоль. Результатом выполнения задачи будет: скриншот файла с учетом расходов, листинг кода, и вывод в консоль, с демонстрацией работоспособности программы.
+### Самостоятельно создайте атрибуты и методы для ранее созданного класса.
+```python
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.age = age
+    
+      def make_sound(self):
+          print(f"The {self.species} makes a sound.")
 
-def add_expense():
-    expense = input("Введите описание расхода: ")
-    amount = input("Введите сумму расхода: ")
-
-    with open('expenses.txt', 'a', encoding='utf-8') as file:
-        file.write(f"{expense}: {amount}\n")
-
-
-def read_expenses():
-    with open('expenses.txt', 'r', encoding='utf-8') as file:
-        data = file.read()
-        if data:
-            print("Существующие расходы:")
-            print(data)
-        else:
-            print("Расходы отсутствуют")
-
-
-while True:
-    choice = input("Введите 1 для добавления расхода, 2 для просмотра расходов, 0 для выхода: ")
-    if choice == '1':
-        add_expense()
-    elif choice == '2':
-        read_expenses()
-    elif choice == '0':
-        break
-    else:
-        print("Неверный выбор, попробуйте еще раз.")
-
+  dog = Animal("Dog", 5)
+  dog.make_sound()
+```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7t7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7t8.png)
 ## Выводы
 
-Данная задача показала, что несмотря на неизменяемость кортежей, их можно "модифицировать" через создание новых кортежей. Это позволило понять, как можно реализовать логику изменений кортежей с сохранением их неизменяемости.
-
-
+Здесь класс Animal был дополнен методом make_sound, который выводит сообщение о звуке, издаваемом животным. Это задание показало, как добавлять методы к классу для выполнения определенных действий.
 
 ## Самостоятельная работа №3
-### Имеется файл input.txt с текстом на латинице. Напишите программу, которая выводит следующую статистику по тексту: количество букв латинского алфавита; число слов; число строк.
-
-import string
-
-def analyze_text(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        text = file.read()
-
-    # Подсчет букв латинского алфавита
-    letter_count = sum(1 for char in text if char in string.ascii_letters)
-
-    # Подсчет слов
-    word_count = len(text.split())
-
-    # Подсчет строк
-    line_count = len(text.splitlines())
-
-    # Вывод результатов
-    print(f"Количество букв: {letter_count}")
-    print(f"Количество слов: {word_count}")
-    print(f"Количество строк: {line_count}")
-
-analyze_text('input.txt')
-
+### Самостоятельно реализуйте наследование, продолжая работать с ранее созданным классом.
+```python
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.age = age
+  
+      def make_sound(self):
+          print(f"The {self.species} makes a sound.")
+  
+  class Dog(Animal):
+      def __init__(self, age, breed):
+          super().__init__("Dog", age)
+          self.breed = breed
+      
+      def bark(self):
+          print("Woof!")
+  
+  labrador = Dog(3, "Labrador")
+  labrador.make_sound()
+  labrador.bark()
+```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/13t7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/8t8.png)
 ## Выводы
-
-Задача помогает закрепить навыки работы со строками и словарями. Также она показывает, как эффективно работать с частотными подсчетами и сортировкой данных в Python, что является важным аспектом обработки данных.
-
+Здесь был создан подкласс Dog, который наследует класс Animal. В классе Dog добавлен метод bark, который выводит сообщение "Woof!". Это задание показало, как использовать наследование для создания более специфичных классов на основе более общих.
 
 ## Самостоятельная работа №4
-### Напишите программу, которая получает на вход предложение, выводит его в терминал, заменяя все запрещенные слова звездочками * (количество звездочек равно количеству букв в слове). Запрещенные слова, разделенные символом пробела, хранятся в текстовом файле input.txt. Все слова в этом файле записаны в нижнем регистре. Программа должна заменить запрещенные слова, где бы они ни встречались, даже в середине другого слова. Замена производится независимо от регистра: если файл input.txt содержит запрещенное слово exam, то слова exam, Exam, ExaM, EXAM и exAm должны быть заменены на ****.
-
-
-import re
-
-def replace_forbidden_words(text, forbidden_words):
-    # Проходим по каждому слову из списка запрещенных
-    for word in forbidden_words:
-        # Создаем регулярное выражение для поиска слова без учета регистра
-        pattern = re.compile(re.escape(word), re.IGNORECASE)
-        # Заменяем все вхождения слова на звездочки
-        text = pattern.sub('*' * len(word), text)
-    return text
-
-with open('input.txt', 'r', encoding='utf-8') as f:
-    forbidden_words = f.read().split()
-
-text = "Hello, world! Python IS the programming language of thE future. My EMAIL is.... PYTHON is awesome!!!!"
-
-result = replace_forbidden_words(text, forbidden_words)
-
-print(result)
-
-
+### Самостоятельно реализуйте инкапсуляцию, продолжая работать с ранее созданным классом.
+```python
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.__age = age  # Инкапсуляция атрибута age
+      
+      def get_age(self):
+          return self.__age
+      
+      def set_age(self, age):
+          if age >= 0:
+              self.__age = age
+          else:
+              print("Invalid age")
+  
+  dog = Animal("Dog", 5)
+  print(dog.get_age())
+  dog.set_age(6)
+  print(dog.get_age())
+  dog.set_age(-1)  # Неправильный возраст
+```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/14t7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/9t8.png)
 
 ## Выводы
 
-Задача продемонстрировала работу с файлами, строками и регулярными выражениями. Это полезный навык при создании программ для фильтрации текста, что может применяться, например, в системах модерации контента.
+Здесь был реализован механизм инкапсуляции для атрибута age класса Animal, делая его приватным. Метод get_age предоставляет доступ к значению, а метод set_age позволяет изменять его с проверкой. Это задание демонстрирует принцип инкапсуляции, который помогает защитить данные внутри класса.
 
 ## Самостоятельная работа №5
-### Самостоятельно придумайте и решите задачу, которая будет взаимодействовать с текстовым файлом. Задача последнее посещение
-import os
+### Самостоятельно реализуйте полиморфизм. Он должен отличаться от примеров в методичке.
+```python
+  class Animal:
+      def make_sound(self):
+          print("Some generic animal sound")
+  
+  class Dog(Animal):
+      def make_sound(self):
+          print("Woof!")
+  
+  class Cat(Animal):
+      def make_sound(self):
+          print("Meow!")
 
-from datetime import datetime, timedelta
-
-def record_visit():
-
-with open('input.txt', 'a', encoding='utf-8') as f:
-
-f.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-
-def get_last_visit():
-
-last_visit = None
-
-if os.path.exists('input.txt'):
-
-with open('input.txt', 'r', encoding='utf-8') as f:
-
-for line in f:
-
-last_visit = line.strip()
-
-return last_visit
-
-record_visit()
-
-print(f"Последнее посещение: {get_last_visit()}")
+  animals = [Dog(), Cat(), Animal()]
+  
+  for animal in animals:
+      animal.make_sound()
+```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/15.1.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/15.2.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/10t8.png)
 ## Выводы
-Эта программа фиксирует посещение, записывая текущее время в файл, а также выводит последнее время посещения. Каждый раз при запуске записывает текущие дату и время посещения в файл input.txt.
-Читает файл и выводит время последнего посещения, которое может быть как последним записанным временем, так и временем из предыдущих посещений. Если запустить программу несколько раз, в файл будет добавляться несколько строк с разными временными отметками, и программа всегда будет возвращать последнюю из них.
+Здесь был продемонстрирован полиморфизм. Классы Dog и Cat переопределили метод make_sound класса Animal, каждый со своим собственным звуком. Полиморфизм позволяет вызывать один и тот же метод для различных объектов, обеспечивая гибкость и расширяемость кода.
+
 ## Общий вывод 
-В ходе выполнения всех заданий были рассмотрены различные аспекты работы с файлами, строками, кортежами, списками и словарями. Эти задания способствовали изучению и закреплению навыков ввода-вывода данных, работы с неизменяемыми структурами (кортежи), а также использования множества встроенных функций Python, таких как сортировка, фильтрация и регулярные выражения. Все задачи решались с применением базовых и продвинутых методов Python, что развивает способность эффективно обрабатывать данные и взаимодействовать с файлами.
+В ходе выполнения этих заданий были изучены основные принципы объектно-ориентированного программирования (ООП): создание классов и объектов, работа с атрибутами и методами, наследование, инкапсуляция и полиморфизм. Эти задания помогли глубже понять концепции ООП, что является важным аспектом структурирования кода и создания более гибких, масштабируемых программ.
