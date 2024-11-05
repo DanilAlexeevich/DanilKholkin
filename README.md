@@ -6,10 +6,10 @@
 | Задание | Лаб_раб | Сам_раб |
 | ------ | ------ | ------ |
 | Задание 1 | + | + |
-| Задание 2 | + | + |
-| Задание 3 | + | + |
-| Задание 4 | + | + |
-| Задание 5 | + | + |
+| Задание 2 | + | 
+| Задание 3 | + | 
+| Задание 4 | + | 
+| Задание 5 | + | 
 
 
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
@@ -173,9 +173,93 @@ greet(john)
 Этот код создает два класса Russian и English, каждый из которых имеет статический метод greeting, выводящий приветствие на соответствующем языке.
 
 ## Самостоятельная работа №1
-### Самостоятельно создайте класс и его объект. Они должны отличаться от тех, что указаны в методичке и лабораторных заданиях.
+### Задание Садовник и помидоры.
 ```python
-  
+# Класс Tomato (Помидор)
+class Tomato:
+    # Статическое свойство states, содержащее стадии созревания
+    states = ["отсутствует", "цветение", "зеленый", "красный"]
+
+    def __init__(self, index):
+        # Динамическое свойство _index — уникальный идентификатор томата
+        self._index = index
+        # Динамическое свойство _state — начальная стадия созревания (первое значение из states)
+        self._state = Tomato.states[0]
+
+    # Метод для роста томата, переход на следующую стадию созревания
+    def grow(self):
+        current_state_index = Tomato.states.index(self._state)
+        if current_state_index < len(Tomato.states) - 1:
+            self._state = Tomato.states[current_state_index + 1]
+
+    # Метод для проверки, что томат созрел (стал красным)
+    def is_ripe(self):
+        return self._state == Tomato.states[-1]
+
+
+# Класс TomatoBush (Куст помидоров)
+class TomatoBush:
+    def __init__(self, num_tomatoes):
+        # Динамическое свойство tomatoes — список объектов Tomato
+        self.tomatoes = [Tomato(index) for index in range(num_tomatoes)]
+
+    # Метод для роста всех томатов на кусте
+    def grow_all(self):
+        for tomato in self.tomatoes:
+            tomato.grow()
+
+    # Метод для проверки, что все томаты на кусте созрели
+    def all_are_ripe(self):
+        return all(tomato.is_ripe() for tomato in self.tomatoes)
+
+    # Метод для сбора урожая (очищает список томатов после сбора)
+    def give_away_all(self):
+        self.tomatoes = []
+
+
+# Класс Gardener (Садовник)
+class Gardener:
+    def __init__(self, name, plant):
+        # Публичное свойство name — имя садовника
+        self.name = name
+        # Динамическое свойство _plant — куст томатов, за которым ухаживает садовник
+        self._plant = plant
+
+    # Метод работы садовника (растит куст с томатами)
+    def work(self):
+        self._plant.grow_all()
+
+    # Метод сбора урожая
+    def harvest(self):
+        if self._plant.all_are_ripe():
+            self._plant.give_away_all()
+            print("Урожай собран!")
+        else:
+            print("Не все томаты созрели, нельзя собирать урожай.")
+
+    # Статический метод справки по садоводству
+    @staticmethod
+    def knowledge_base():
+        print("Справка по садоводству: поливайте растения, ухаживайте за ними, соберите урожай, когда они созреют.")
+
+
+# Тесты
+# Вызов справки по садоводству
+Gardener.knowledge_base()
+
+# Создание объектов TomatoBush и Gardener
+bush = TomatoBush(num_tomatoes=5)
+gardener = Gardener(name="Иван", plant=bush)
+
+# Уход за кустом с помидорами
+gardener.work()
+gardener.harvest()  # Попытка собрать урожай, когда томаты еще не дозрели
+
+# Продолжение ухода за кустом, пока все томаты не созреют
+for _ in range(3):  # Дополнительные циклы для полного созревания
+    gardener.work()
+    gardener.harvest()  # Проверка созревания и сбор урожая, если созрели
+
 ```
 
 ### Результат.
