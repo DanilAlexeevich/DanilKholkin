@@ -18,7 +18,7 @@
 - к.э.н., доцент Панов М.А.
 
 ## Лабораторная работа №1
-### 1)	Простой итератор, но у него нет гибкой настройки, например его нельзя развернуть. Он работает просто как next(), но нет prev()
+### Простой итератор, но у него нет гибкой настройки, например его нельзя развернуть. Он работает просто как next(), но нет prev()
 ```python
 numbers = [0, 1, 2, 3, 4, 5]
 for item in numbers:
@@ -26,12 +26,12 @@ for item in numbers:
 ```
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(8).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/1t11.png)
 
 ## Выводы
 Создание простого итератора.
 ## Лабораторная работа №2
-### 2)	Класс итератор с гибкой настройкой и удобными применением
+### Класс итератор с гибкой настройкой и удобными применением
 ```python
 class CountDown:
     def __init__(self, start):
@@ -53,12 +53,12 @@ if __name__ == '__main__':
         print(i)
 ```
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(9).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/2t11.png)
 
 ## Выводы
 Создание класса итератора.
 ## Лабораторная работа №3
-### 3)	Генератор списка
+### Генератор списка
 ```python
 a = [i ** 2 for i in range(1, 5)]
 print('a - ', a)
@@ -70,7 +70,7 @@ for i in a:
 ```
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(10).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/3t11.png)
 
 ## Выводы
 Простой генератор списка.
@@ -92,7 +92,7 @@ for i in b:
 
 ### Результат
 
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(11).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/4t11.png)
 ## Выводы
 Генратор с вырвжением.
 ## Лабораторная работа №5
@@ -109,7 +109,7 @@ if __name__ == '__main__':
 ```
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(12).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/5t11.png)
 
 ## Выводы
 Счетчик с выражением yield.
@@ -133,7 +133,7 @@ print(f"200-е число Фибоначчи: {fib_sequence[-1]}")
 ```
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(13).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/6t11.png)
 
 ## Выводы 
 Программа вычисляет n-ое число Фибаначчи.
@@ -160,8 +160,7 @@ print("Числа Фибоначчи записаны в файл 'fib.txt'.")
 
 ```
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(14).png)
-
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7t11.png)
 ## Вывод
 Программа выводит n чисел последовательности Фибоначчи в тестовый файл.
 ## Общий вывод
